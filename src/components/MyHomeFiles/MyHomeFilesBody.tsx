@@ -24,8 +24,9 @@ export function MyHomeFilesBody() {
       </Flex>
 
       <SimpleGrid minChildWidth="180px" spacing={6} px={["8", "3"]}>
-        {homefilesMock.map(({ name, image, address, cityState }) => (
+        {homefilesMock.map(({ name, image, address, cityState, id }) => (
           <FileCard
+            key={id}
             name={name}
             image={image}
             address={address}
