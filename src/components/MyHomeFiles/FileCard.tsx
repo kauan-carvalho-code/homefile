@@ -17,18 +17,18 @@ export function FileCard({ name, image, address, cityState }: FileCardProps) {
       boxShadow="md"
       height={["280px", "240px"]}
     >
-      <Flex align="center">
+      <Flex align="center" h="10%">
         <Icon
           ml="auto"
           mr="1"
           as={BsThreeDots}
-          fontSize={26}
+          fontSize={["1xl", "2xl"]}
           cursor="pointer"
         />
       </Flex>
       <Image src={image} alt={name} h="50%" />
       <Box h="40%" px="2">
-        <Text fontWeight="bold" my="2">
+        <Text fontWeight="bold" my="2" fontSize={["sm", "md"]}>
           {name}
         </Text>
         <Text fontSize="sm">{address}</Text>

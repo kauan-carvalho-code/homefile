@@ -13,10 +13,10 @@ export function SendDocumentHeader() {
       p="3"
     >
       <Flex align="center">
-        <Icon as={AiOutlineMail} fontSize={26} mr="2" />
-        <Text>Send Document</Text>
+        <Icon as={AiOutlineMail} fontSize={["1xl", "2xl"]} mr="2" />
+        <Text fontSize={["sm", "md"]}>Send Document</Text>
       </Flex>
-      <Icon as={BsThreeDots} fontSize={26} />
+      <Icon as={BsThreeDots} fontSize={["1xl", "2xl"]} />
     </Flex>
   );
 }

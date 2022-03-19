@@ -12,11 +12,11 @@ export function MyHomeFilesHeader() {
       p="3"
     >
       <Flex align="center">
-        <Icon as={BsFillHouseDoorFill} fontSize={26} mr="2" />
-        <Text>My Homefiles</Text>
+        <Icon as={BsFillHouseDoorFill} fontSize={["1xl", "2xl"]} mr="2" />
+        <Text fontSize={["sm", "md"]}>My Homefiles</Text>
       </Flex>
 
-      <Icon as={BsThreeDots} fontSize={26} cursor="pointer" />
+      <Icon as={BsThreeDots} fontSize={["1xl", "2xl"]} cursor="pointer" />
     </Flex>
   );
 }

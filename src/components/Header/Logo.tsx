@@ -4,8 +4,8 @@ import { BsFillHouseDoorFill } from "react-icons/bs";
 export function Logo() {
   return (
     <Flex w="36" align="center">
-      <Icon as={BsFillHouseDoorFill} fontSize={24} mr="2" />
-      <Text fontSize={["md", "lg"]} fontWeight="bold">
+      <Icon as={BsFillHouseDoorFill} fontSize={["1xl", "2xl"]} mr="2" />
+      <Text fontSize={["sm", "lg"]} fontWeight="bold">
         Homefile
       </Text>
     </Flex>

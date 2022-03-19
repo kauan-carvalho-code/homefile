@@ -13,7 +13,7 @@ export function Profile() {
         as={HiOutlineChevronDown}
         cursor="pointer"
         color="gray.200"
-        fontSize="24"
+        fontSize={["1xl", "2xl"]}
       />
     </Flex>
   );

@@ -16,13 +16,12 @@ export function InviteCounter({
     <Flex
       bgColor="whiteAlpha.900"
       height="100px"
-      width={["48%", "100%", "48%"]}
+      width="100%"
       boxShadow="md"
       borderRadius={4}
       p="2"
       direction="column"
       justify="space-between"
-      mb={["0", "4", "0"]}
     >
       <Flex align="center">{children}</Flex>
       <Box color="gray.200">

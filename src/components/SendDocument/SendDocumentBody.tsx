@@ -1,4 +1,4 @@
-import { Button, Flex } from "@chakra-ui/react";
+import { Button, Flex, Text } from "@chakra-ui/react";
 
 export function SendDocumentBody() {
   return (
@@ -17,7 +17,7 @@ export function SendDocumentBody() {
           bgColor: "blue.200",
         }}
       >
-        Set Up Document
+        <Text fontSize={["sm", "md"]}>Set Up Document</Text>
       </Button>
     </Flex>
   );

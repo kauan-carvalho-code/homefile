@@ -15,15 +15,15 @@ export function MyHomeFilesBody() {
           borderRadius={0}
           borderBottomRightRadius="32"
           borderTopRightRadius="32"
-          leftIcon={<AddIcon fontSize={[18, 24]} mr="1" />}
+          leftIcon={<AddIcon fontSize={["1xl", "2xl"]} mr="1" />}
         >
-          <Text fontWeight="thin" fontSize={[12, 14]}>
+          <Text fontWeight="thin" fontSize={["sm", "md"]}>
             NEW HOMEFILE
           </Text>
         </Button>
       </Flex>
 
-      <SimpleGrid minChildWidth="180px" spacing={6} px="3">
+      <SimpleGrid minChildWidth="180px" spacing={6} px={["8", "3"]}>
         {homefilesMock.map(({ name, image, address, cityState }) => (
           <FileCard
             name={name}

@@ -5,7 +5,7 @@ export function Welcome() {
   return (
     <Flex height="16" w="100%" align="center" justify="space-between">
       <Text
-        fontSize={["md", "xl"]}
+        fontSize={["sm", "md"]}
         w={["70%", "100%"]}
         lineHeight={1.2}
         pl={["2", "6"]}
@@ -21,9 +21,9 @@ export function Welcome() {
         borderRadius={0}
         borderBottomLeftRadius="20"
         borderTopLeftRadius="20"
-        leftIcon={<AddIcon fontSize={[18, 24]} ml="1" />}
+        leftIcon={<AddIcon fontSize={["1xl", "2xl"]} ml="1" />}
       >
-        <Text mr="auto" ml="1" fontWeight="thin" fontSize={[12, 14]}>
+        <Text mr="auto" ml="1" fontWeight="thin" fontSize={["sm", "md"]}>
           VIEW
         </Text>
       </Button>

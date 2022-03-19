@@ -22,8 +22,8 @@ export function InviteButton() {
       }}
     >
       <Flex align="center">
-        <AddIcon fontSize={20} />
-        <Text fontWeight="thin" ml="2" fontSize={[12, 14]}>
+        <AddIcon fontSize={["xl", "1xl"]} />
+        <Text fontWeight="thin" ml="3" fontSize={["sm", "md"]}>
           CREATE INVITE
         </Text>
       </Flex>
@@ -33,7 +33,7 @@ export function InviteButton() {
         bgColor="blue.400"
         p="6px"
       >
-        <Icon as={FiChevronRight} fontSize={20} />
+        <Icon as={FiChevronRight} fontSize={["xl", "1xl"]} />
       </Flex>
     </Button>
   );
